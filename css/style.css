@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+/* HEAD */
+
+.headcontainer {
+    display: flex;
+}
+.logo {
+}
+
+a {
+font-size: 18px;
+color: #E5E7EB;
+text-decoration: none;
+
+}
