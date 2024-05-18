@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: #1F2937;
     font-family: "Roboto", sans-serif;
     color: #f9faf8;
     font-size: 18px;
@@ -16,6 +15,7 @@ body {
 
 /* NAV */
 nav {
+    background-color: #1F2937;
     display: flex;
     padding: 25px 200px;
 }
@@ -40,6 +40,7 @@ text-decoration: none;}
 /* HEADER */
 
 header {
+    background-color: #1F2937;
     display: flex;
     padding: 100px 200px;
     gap: 50px;
@@ -87,6 +88,19 @@ button:hover {
 transform: scale(110%);
 }
 
+/* CONTENT */
+
+content {
+    background-color: #fff;
+}
+
+content h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+}
 
 
 
