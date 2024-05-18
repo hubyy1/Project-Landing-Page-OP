@@ -9,21 +9,38 @@ body {
     font-family: "Roboto", sans-serif;
     color: #f9faf8;
     font-size: 18px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
+    align-items: center; */
 }
 
-/* HEAD */
-
-.headcontainer {
+/* NAV */
+nav {
     display: flex;
+    padding: 25px 200px;
 }
-.logo {
-}
-
 a {
 font-size: 18px;
 color: #E5E7EB;
-text-decoration: none;
+text-decoration: none;}
 
+.logo {
+    flex: 1;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.linkcontainer {
+    display: flex;
+    gap: 30px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
