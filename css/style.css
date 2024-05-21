@@ -127,6 +127,17 @@ text-align: center;
 margin-top: 10px;
 }
 
+/* CONTENT QUOTE */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
 
 
 
