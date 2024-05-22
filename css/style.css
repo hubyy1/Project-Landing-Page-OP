@@ -137,9 +137,34 @@ margin-top: 10px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    padding: 100px 200px;
+    text-align: center;
 }
 
+.quote span {
+    font-weight: bold;
+}
 
+/* CONTENT AD */
+
+.ad {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    margin: 100px 200px;
+    gap: 200px;
+    border-radius: 15px;
+}
+
+.ad span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ad button {
+    border: 2px solid white;
+}
 
 
 
