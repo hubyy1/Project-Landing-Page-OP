@@ -166,6 +166,17 @@ margin-top: 10px;
     border: 2px solid white;
 }
 
+/* footer */
+
+.footcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #1F2937;
+    height: 100px;
+}
+
 
 
 
